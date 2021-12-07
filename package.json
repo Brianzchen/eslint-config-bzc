@@ -10,6 +10,9 @@
     "eslint",
     "eslintconfig"
   ],
+  "scripts": {
+    "prepublishOnly": "node ./scripts/genStyleguide.js"
+  },
   "peerDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/eslint-parser": "^7.12.0",
