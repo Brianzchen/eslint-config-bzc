@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-bzc",
+  "description": "Eslint Config for my personal and professional projects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Brianzchen/eslint-config-bzc.git",
+  "author": "Brian Chen",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "peerDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/eslint-parser": "^7.12.0",
+    "eslint-config-airbnb": ">=17.0.0 || >=18.0.0",
+    "eslint-plugin-fb-flow": ">=0.0.1",
+    "eslint-plugin-flowtype": ">=5.9.0",
+    "eslint-plugin-react": ">=7.23.0",
+    "eslint-plugin-react-hooks": ">=4.0.0",
+    "eslint-plugin-testing-library": ">=4.0.0"
+  }
+}
