@@ -72,6 +72,10 @@ module.exports = {
     'prefer-promise-reject-errors': 0,
     'quote-props': ['error', 'as-needed', { keywords: false, unnecessary: true, numbers: true }],
     'react/destructuring-assignment': 0,
+    'react/function-component-definition': [2, {
+      namedComponents: 'arrow-function',
+      unnamedComponents: 'arrow-function',
+    }],
     'react/jsx-curly-brace-presence': ['error', {
       props: 'never',
       children: 'ignore',
