@@ -15,7 +15,7 @@ yarn add -D eslint-config-bzc
 
 In addition you will also need a list of peer dependencies for the linter to run properly
 ```
-@babel/core @babel/eslint-parser @babel/plugin-syntax-flow @babel/plugin-transform-react-jsx eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-fb-flow eslint-plugin-flowtype eslint-plugin-react-hooks eslint-plugin-testing-library
+@babel/core @babel/eslint-parser @babel/plugin-syntax-flow @babel/plugin-transform-react-jsx eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-fb-flow eslint-plugin-ft-flow eslint-plugin-react-hooks eslint-plugin-testing-library
 ```
 
 ## Set up

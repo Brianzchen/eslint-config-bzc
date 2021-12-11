@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'airbnb',
-    'plugin:flowtype/recommended',
+    'plugin:ft-flow/recommended',
   ],
   env: {
     browser: true,
@@ -13,36 +13,36 @@ module.exports = {
     'react',
     'jest',
     'fb-flow',
-    'flowtype',
+    'ft-flow',
     'react-hooks',
     'testing-library',
   ],
   settings: {
-    flowtype: {
+    'ft-flow': {
       onlyFilesWithFlowAnnotation: true,
     },
   },
   rules: {
     camelcase: 0,
     'fb-flow/use-indexed-access-type': 2,
-    'flowtype/array-style-complex-type': 2,
-    'flowtype/array-style-simple-type': 2,
-    'flowtype/delimiter-dangle': [
+    'ft-flow/array-style-complex-type': 2,
+    'ft-flow/array-style-simple-type': 2,
+    'ft-flow/delimiter-dangle': [
       2,
       'always-multiline',
     ],
-    'flowtype/no-weak-types': [2, {
+    'ft-flow/no-weak-types': [2, {
       any: false,
       Object: true,
       Function: true,
     }],
-    'flowtype/enforce-line-break': 2,
-    'flowtype/newline-after-flow-annotation': [2, 'never'],
-    'flowtype/object-type-curly-spacing': [2, 'always'],
-    'flowtype/quotes': [2, 'single'],
-    'flowtype/semi': [2, 'always'],
-    'flowtype/interface-id-match': ['error', '^_?([A-Z][A-Za-z0-9$]*I)$'],
-    'flowtype/type-id-match': ['error', '^_?([A-Z][A-Za-z0-9$]*T|Props)$'],
+    'ft-flow/enforce-line-break': 2,
+    'ft-flow/newline-after-flow-annotation': [2, 'never'],
+    'ft-flow/object-type-curly-spacing': [2, 'always'],
+    'ft-flow/quotes': [2, 'single'],
+    'ft-flow/semi': [2, 'always'],
+    'ft-flow/interface-id-match': ['error', '^_?([A-Z][A-Za-z0-9$]*I)$'],
+    'ft-flow/type-id-match': ['error', '^_?([A-Z][A-Za-z0-9$]*T|Props)$'],
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'import/no-named-as-default': 0,
     'import/order': [
