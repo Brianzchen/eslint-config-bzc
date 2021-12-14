@@ -39,6 +39,7 @@ module.exports = {
     'ft-flow/enforce-line-break': 2,
     'ft-flow/newline-after-flow-annotation': [2, 'never'],
     'ft-flow/object-type-curly-spacing': [2, 'always'],
+    'ft-flow/object-type-delimiter': [2, 'comma'],
     'ft-flow/quotes': [2, 'single'],
     'ft-flow/semi': [2, 'always'],
     'ft-flow/interface-id-match': ['error', '^_?([A-Z][A-Za-z0-9$]*I)$'],
