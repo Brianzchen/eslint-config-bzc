@@ -66,6 +66,7 @@ module.exports = {
     'jsx-a11y/click-events-have-key-events': 0,
     'jsx-a11y/no-noninteractive-element-interactions': 0,
     'no-console': ['warn', { allow: ['warn', 'error', 'info'] }],
+    'no-continue': 0,
     'no-underscore-dangle': 0,
     'no-unused-expressions': ['error', { allowShortCircuit: true, allowTernary: true }],
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
