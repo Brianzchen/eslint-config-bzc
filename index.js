@@ -45,6 +45,9 @@ module.exports = {
     'ft-flow/interface-id-match': ['error', '^_?([A-Z][A-Za-z0-9$]*I)$'],
     'ft-flow/type-id-match': ['error', '^_?([A-Z][A-Za-z0-9$]*T|Props)$'],
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    // Rule incompatible with flowtype's type imports
+    // eg: import type { Blah } from 'blah'; module.exports = {};
+    'import/no-import-module-exports': 0,
     'import/no-named-as-default': 0,
     'import/order': [
       'error',
