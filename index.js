@@ -37,6 +37,7 @@ module.exports = {
       Function: true,
     }],
     'ft-flow/enforce-line-break': 2,
+    'ft-flow/enforce-suppression-code': 2,
     'ft-flow/newline-after-flow-annotation': [2, 'never'],
     'ft-flow/object-type-curly-spacing': [2, 'always'],
     'ft-flow/object-type-delimiter': [2, 'comma'],
