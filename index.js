@@ -99,6 +99,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 0,
     // Majority of our code uses flowtype now so this is not necessary
     'react/require-default-props': 0,
+    'react/no-unstable-nested-components': [2, { allowAsProps: true }],
     'react-hooks/rules-of-hooks': 2,
     'testing-library/no-dom-import': 2,
     'testing-library/no-manual-cleanup': 2,
