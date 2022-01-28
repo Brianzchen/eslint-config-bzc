@@ -45,6 +45,9 @@ module.exports = {
     'ft-flow/semi': [2, 'always'],
     'ft-flow/interface-id-match': ['error', '^_?([A-Z][A-Za-z0-9$]*I)$'],
     'ft-flow/type-id-match': ['error', '^_?([A-Z][A-Za-z0-9$]*T|Props)$'],
+    // Turn off for now because of enums until it's fixed.
+    // Flow basically does this checking for us anyways
+    'import/named': 0,
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     // Rule incompatible with flowtype's type imports
     // eg: import type { Blah } from 'blah'; module.exports = {};
@@ -57,7 +60,7 @@ module.exports = {
         groups: [['builtin', 'external'], 'internal', ['parent', 'sibling', 'index']],
         pathGroups: [
           {
-            pattern: '@tabdigital/**',
+            pattern: '{@tabdigital,@hometale}/**',
             group: 'internal',
             position: 'before',
           },
