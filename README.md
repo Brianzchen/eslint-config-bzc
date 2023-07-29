@@ -12,10 +12,14 @@ or
 ```
 yarn add -D eslint-config-bzc
 ```
+or
+```
+pnpm add -D eslint-config-bzc
+```
 
 In addition you will also need a list of peer dependencies for the linter to run properly
 ```
-@babel/core @babel/eslint-parser @babel/plugin-syntax-flow @babel/plugin-syntax-jsx @babel/plugin-transform-react-jsx eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-fb-flow eslint-plugin-ft-flow eslint-plugin-react-hooks eslint-plugin-testing-library
+@babel/core @babel/plugin-syntax-flow @babel/plugin-syntax-jsx @babel/plugin-transform-react-jsx eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-fb-flow eslint-plugin-ft-flow eslint-plugin-react-hooks eslint-plugin-testing-library hermes-eslint
 ```
 
 ## Set up
