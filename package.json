@@ -27,7 +27,7 @@
     "hermes-eslint": ">=0.15.0"
   },
   "devDependencies": {
-    "flow-bin": "^0.166.1",
+    "flow-bin": "^0.213.1",
     "husky": "^7.0.4"
   }
 }
