@@ -118,5 +118,12 @@ module.exports = {
     'testing-library/no-wait-for-side-effects': 2,
     'testing-library/prefer-screen-queries': 2,
     'testing-library/prefer-wait-for': 2,
+    'unicorn/import-style': [2, {
+      styles: {
+        react: {
+          namespace: true,
+        },
+      },
+    }],
   },
 };

@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-bzc",
   "description": "Eslint Config for my personal and professional projects",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "main": "index.js",
   "repository": "git@github.com:Brianzchen/eslint-config-bzc.git",
   "author": "Brian Chen",
@@ -24,6 +24,7 @@
     "eslint-plugin-react": ">=7.27.0",
     "eslint-plugin-react-hooks": ">=4.0.0",
     "eslint-plugin-testing-library": ">=4.0.0",
+    "eslint eslint-plugin-unicorn": ">=51.0.1",
     "hermes-eslint": ">=0.15.0"
   },
   "devDependencies": {
