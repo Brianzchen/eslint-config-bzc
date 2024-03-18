@@ -16,6 +16,7 @@ module.exports = {
     'ft-flow',
     'react-hooks',
     'testing-library',
+    'unicorn',
   ],
   settings: {
     'ft-flow': {
@@ -86,6 +87,13 @@ module.exports = {
     'no-unused-expressions': ['error', { allowShortCircuit: true, allowTernary: true }],
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0, maxBOF: 0 }],
+    'no-unused-vars': ['error', {
+      vars: 'all',
+      args: 'after-used',
+      ignoreRestSiblings: true,
+      varsIgnorePattern: '_',
+    }],
+    'no-useless-computed-key': 0,
     'prefer-promise-reject-errors': 0,
     'quote-props': ['error', 'as-needed', { keywords: false, unnecessary: true, numbers: true }],
     'react/destructuring-assignment': 0,
